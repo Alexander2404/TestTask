@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@400;700&display=swap');
+.modal{font-family: 'Roboto', sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    z-index: 9998;  
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;   
+}
+.modalHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 15px;
+    border-bottom: 1px solid #eceeef;
+}
+.modalContent {
+    position: relative;
+    min-width:  500px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+  
+}
+.close{
+    float: right;
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1;
+    color: red;
+    opacity: 0.5;
+}
+.close:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.userInfo{
+    margin: auto;
+    position: relative;
+    width: 90%;
+    height: 90%;
+    line-height: 20px;
+    font-size: 20px;text-align: left;
+}
+.userInfoHeaders{
+    font-weight: 700;
+}

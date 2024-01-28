@@ -1,6 +1,7 @@
 {
   "name": "test_task",
   "version": "0.1.0",
+  "homepage": "https://Alexander2404.github.io/TestTask",
   "private": true,
   "dependencies": {
     "@redux-devtools/extension": "^3.3.0",
